@@ -21,7 +21,44 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border:10px solid red;
+  border:10px dotted red;
   border-radius:10px;
   position:absolute;
+}
+
+/*dancer{
+  border:10px solid purple;
+  border-radius:5px;
+  position:absolute;
+}*/ 
+
+.squaris {
+  border:20px dotted purple;
+  border-radius:15px;
+  border-radius:15px;
+  position:absolute;
+}
+
+.pacman{
+  border:20px dotted green;
+  border-top-right-radius:15px;
+  border-top-left-radius:15px;
+  position:absolute;
+}
+
+.lineUp {
+  float: left;
+  height: 100%;
+  width: 80px;
+}
+
+#danceFloor {
+  height: 100%;
+  width: 100%;
+}
+
+#danceFloor2 {
+  margin: auto 0;
+  height: 50%;
+  width: 100%;
 }
