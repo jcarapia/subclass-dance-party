@@ -10,14 +10,16 @@ var makeDancer = function(top, left, timeBetweenSteps){
   
   this.step();
   this.setPosition(this.top, this.left);
-};
+};;
+
 
   
 makeDancer.prototype.step = function(){
   // the basic dancer doesn't do anything interesting at all on each step,
   // it just schedules the next step
   // this.step()
-  // console.log(stepping)
+  console.log("this",this)
+
   setTimeout(this.step.bind(this), this.timeBetweenSteps);
 };
 makeDancer.prototype.setPosition = function(top, left){
@@ -33,7 +35,7 @@ makeDancer.prototype.setPosition = function(top, left){
 // console.log("hello")
 };
 var test = new makeDancer(10, 25, 1000)
-console.log("line 28, test in makeDancer: ",test)
+// console.log("line 28, test in makeDancer: ",test)
 //=====================================================================================//
 //Creates and returns a new dancer object that can step
 // var makeDancer = function(top, left, timeBetweenSteps){
